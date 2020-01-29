@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find template_matcher)/config/matcher.yaml" command="load" />
+    <node name="template_matcher_node" pkg="template_matcher" type="template_matcher_node" />
+</launch>

@@ -1,0 +1,8 @@
+#goal definition
+int32 template_id
+---
+#result definition
+float64 percentage_match
+---
+#feedback
+float64 progress
